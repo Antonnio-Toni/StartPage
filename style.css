@@ -1,0 +1,67 @@
+body {
+  background-image: url(img/WEB_Twins_Car.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.contain_link {
+  background-color: rgba(61, 30, 61, 0.5);
+  height: auto;
+  width: 15vw;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 2px;
+  border: 10px;
+  text-align: center;
+}
+
+.contain_link:hover {
+  background-color: rgba(61, 30, 61, 0.8);
+  box-shadow: 5px 10px rgb(47, 18, 41);
+}
+
+a {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+  font-size: large;
+}
+
+a:hover {
+  color: rgb(190, 181, 219);
+  font-size: 22px;
+}
+
+.container {
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(5, 1fr);
+}
+
+.box {
+  grid-column: 1 / -1;
+  grid-row: 2 / -1;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: rgba(191, 181, 219, 0.8);
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 1px;
+}
+
+.cyber {
+  color: rgba(191, 181, 219, 0.8);
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
